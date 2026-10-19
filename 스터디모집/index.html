@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <title>응웬 탄 티엔 - 스터디모집</title>
+
+        <!--CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- 제목과 영역 -->
+        <header>
+            <div class="wrapper">
+                <a class="logo" href="#main">Full-stack dev study</a>
+                <nav>
+                    <button class="btn-menu">menu</button>
+                    <ul class="main-nav">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#curriculum">Curriculum</a></li>
+                        <li><a href="#mentors">Mentors</a></li>
+                        <li><a href="#apply">Apply</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- 메인 영역 -->
+        <section id="main">
+            <div class="wrapper">
+                <h1>Full-stack dev study</h1>
+                <p class="main-date">
+                    2026. 09. 01 - 2026. 10. 27 <br>
+                    메주 화요일 19:00 - 21:00
+                </p>
+                <p>
+                    프론트엔드부터 백엔드, 배푸까지 한 번에 경험하는 
+                    8주 완성 풀스택 개발 스터디입니다.<br>
+                    혼자서는 끝까지 완주하기 어려웠던 사이드 프로젝트,
+                    이번엔 함께 끝까지 만들어 봄시다.
+                </p>
+            </div>
+        </section>
+
+        <!-- about 영역 -->
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                이 스터디는 실무에서 자주 사용하는 기술 스택(React, Node.js, Express, MongoDB)을 처음부터 끝까지 직접 만들어 보며 배우는 것을 목표로 합니다.
+                 매주 이론 학습과 실습을 병행하고, 마지막 주에는 각자 완성한 프로젝트를 발표하는 데모데이를 진행합니다.
+            </p>
+            <img src="images/hero02.png" alt="스터디 진핸 모습">
+        </section>
+
+        <!-- curricumlum 영역 -->
+         <section id="curriculum">
+            <h2>curricumlum</h2>
+            <div class="wrapper">
+                <table class="curriculum-table">
+                    <tr>
+                        <td class="week">1주차</td>
+                        <td class="conment">HTML / css 기초 다지기</td>
+                    </tr>
+                     <tr>
+                        <td class="week">2주차</td>
+                        <td class="conment">JavaScript 핵심 문법 정리</td>
+                    </tr>
+                    <tr>
+                        <td class="week">3주차</td>
+                        <td class="conment">react로 프론트엔드 화면 만들기</td>
+                    </tr> 
+                    <tr>
+                        <td class="week">4주차</td>
+                        <td class="conment">node.js & Express로 서버 만들기</td>
+                    </tr>
+                    <tr>
+                        <td class="week">5주차</td>
+                        <td class="conment">MongoDB로 데이터배에스 다루기</td>
+                    </tr> 
+                    <tr>
+                        <td class="week">6주차</td>
+                        <td class="conment">프론트엔드 -백인드 API 연동하기</td>
+                    </tr>
+                    <tr>
+                        <td class="week">7주차</td>
+                        <td class="conment">배푸하기 (vercel /render)</td>
+                    </tr> 
+                    <tr>
+                        <td class="week">8주차</td>
+                        <td class="conment">최동 프로젝트 발표회 (데모데이)</td>
+                    </tr>                                   
+                </table>
+            </div>
+
+         </section>
+
+         <!-- mentors 영역 -->
+          <section id="mentors">
+            <h2>mentors</h2>
+            <div class="mentors-list">
+                <div class="mentors-text">
+                    <h3>이서연</h3>
+                    <p>
+                        3년 차 프론트엔드 개발자로, React와 사용자 경험(UX)에 관심이 많습니다. 
+                        처음 코딩을 시작했을 때의 막막함을 잘 알기에, 눈높이에 맞춘 설명을 목표로 스터디를 운영하고 있습니다.
+                    </p>
+                </div>
+                <img src="images/mentor01.jpg" alt="이서연 사진">
+            </div>
+
+            <div class="mentors-list">
+                <div class="mentors-text">
+                    <h3>정우진</h3>
+                    <p>
+                        3년 차 프론트엔드 개발자로, React와 사용자 경험(UX)에 관심이 많습니다. 
+                        처음 코딩을 시작했을 때의 막막함을 잘 알기에, 눈높이에 맞춘 설명을 목표로 스터디를 운영하고 있습니다.
+                    </p>
+                </div>
+                <img src="images/mentor02.jpg" alt="정우진 사진">
+            </div>
+          </section>
+
+          <!-- apply 영역 -->
+           <section id="apply">
+                <h2>apply</h2>
+                <form action="#">
+                    <label>name</label>
+                    <input type="text" class="apply-field" placeholder="예: 응웬 탄 티엔">
+
+                    <label>Email</label>
+                    <input type="Email" class="apply-field" placeholder="예: thiennt028@gmail.com">
+
+                    <label>참여 동기</label>
+                    <textarea class="apply-field apply-textarea" placeholder="스터디에 참여하고 싶은 이유를 간단히 작성하세요"></textarea>
+
+                    <input type="submit" class="apply-btn" value="지원하기">
+                </form>
+
+                <div class="footer wrapper">
+                    <p>
+                        <a herf="mailto:study@example.com">문의사항</a>
+                        <small>&copy;2026 full-Stack Dev study</small>
+                    </p>
+                </div>
+
+           </section>
+        
+           <script src="js/javascip.js"></script>
+    </body>
+</html>
